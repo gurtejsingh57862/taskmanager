@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Edit Task</title>
+    <link rel="icon" href="/img/TaskImage.jpg">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h2>Task Manager App</h2>
+        <nav>
+            <ul class="task_links nav_links">
+                <li><a href="/createtask">Add</a></li>
+                <li><a href="/viewtasks">View</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="nav_links">
+                <li>Choose
+                    <ul>
+                        <li><a href="/updateprofile">Update Profile</a></li>
+                        <li><a href="/logout">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <div class="title">
+            Edit Task
+        </div>
+        <div class="form">
+            <form id="edittask">
+                <div class="input_field"><input type="text" id="desc" placeholder="Description Box" class="input" required></div>
+                <div class="input_field"><input type="text" id="comp" placeholder="False or True" class="input" required></div>
+                <div class="btn"><button>Update</button></dev>
+            </form>
+        </div>
+    </div>
+    <script src="/js/edittask.js"></script>
+</body>
+
+</html>
