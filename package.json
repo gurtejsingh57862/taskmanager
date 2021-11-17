@@ -31,13 +31,5 @@
     "nodemon": "^2.0.7",
     "supertest": "^6.1.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gurtejsingh57862/taskmanager.git"
-  },
-  "bugs": {
-    "url": "https://github.com/gurtejsingh57862/taskmanager/issues"
-  },
-  "homepage": "https://github.com/gurtejsingh57862/taskmanager#readme",
   "description": ""
 }
