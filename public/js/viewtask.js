@@ -71,4 +71,6 @@ fetch('/tasks', {
 
         buildDeleteButton(res[i],cell4)   
     }
+}).catch((e)=>{
+    console.log(e);
 })

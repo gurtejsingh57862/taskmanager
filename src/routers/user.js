@@ -3,7 +3,7 @@ const multer = require('multer')
 const sharp = require('sharp')
 const auth = require('../middleware/auth')
 const User = require('../model/user')
-const { sendWelcomeEmail, sendCancelationEmail } = require('../emails/account')
+//const { sendWelcomeEmail, sendCancelationEmail } = require('../emails/account')
 const router = new express.Router()
 
 router.get('', async (req, res) => {
